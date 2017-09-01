@@ -59,6 +59,7 @@
         [controller setDetailItem:object];
         controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
         controller.navigationItem.leftItemsSupplementBackButton = YES;
+        [controller setValue:@"周宁" forKey:@"name"];
     }
 }
 
